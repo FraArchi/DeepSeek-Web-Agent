@@ -1,1 +1,15 @@
-Nothing should be ignored based on the provided file changes. The only modified file is README.md, which is a source/config file and should not be added to .gitignore.
+```
+# Script-related temporary files (if any are generated)
+*.tmp
+*.log
+
+# Environment files (if any config files are sensitive)
+.env
+.env.local
+*.env.*
+
+# Backup/swp files from editors
+*.swp
+*.swo
+*~
+```
