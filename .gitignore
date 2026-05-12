@@ -1,15 +1,49 @@
-```
-# Script-related temporary files (if any are generated)
-*.tmp
-*.log
-
-# Environment files (if any config files are sensitive)
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Backup/swp files from editors
+# Logs and temp files
+*.log
+*.tmp
 *.swp
-*.swo
-*~
-```
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Build artifacts
+dist/
+build/
+target/
+*.pyc
+__pycache__/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+.mypy_cache/
+.pytest_cache/
+
+# Gradle
+.gradle/
